@@ -1,51 +1,50 @@
-# PunchOrbit Privacy Policy
+# Fitness Game Lab Privacy Policy
 
-**Last updated:** July 18, 2026  
+**Last updated:** October 28, 2026  
 **Developer:** Light Cup Pix Lab, Padova, Italy  
 **Contact:** [lightcuppixlab.dev@gmail.com](mailto:lightcuppixlab.dev@gmail.com)
 
+Fitness Game Lab was previously published as PunchOrbit. This Policy replaces the PunchOrbit Privacy Policy dated July 18, 2026.
+
 ## At a glance
 
-PunchOrbit requires no account and does not send gameplay or health data to developer-operated servers. Hand tracking is processed in real time on the device. HealthKit is optional and is used only with the user's permission.
+Fitness Game Lab requires no account and does not send any personal, gameplay, or body data to developer-operated servers. Hand tracking and device position are processed in real time on the device. The App does not use HealthKit or Apple Health. Everything the App stores stays on your Apple Vision Pro.
 
 ## 1. Data controller and contact
 
-PunchOrbit, referred to as the "App," is developed by **Light Cup Pix Lab**, Padova, Italy.
+Fitness Game Lab, referred to as the "App," is developed by **Light Cup Pix Lab**, Padova, Italy.
 
 For privacy questions or rights requests, email [lightcuppixlab.dev@gmail.com](mailto:lightcuppixlab.dev@gmail.com).
 
 ## 2. Scope
 
-This Privacy Policy explains how the App handles data when used on Apple Vision Pro with visionOS. The App has no account, sign-in, developer-operated backend, or advertising system.
+This Privacy Policy explains how the App handles data when used on Apple Vision Pro with visionOS. The App has no account, sign-in, developer-operated backend, analytics, or advertising system.
 
 ## 3. Data processed and purposes
 
 ### Hand tracking
 
-With system permission, the App uses ARKit to detect hand position and orientation in real time so you can control the gloves and register punches. Raw tracking data is not recorded or transmitted to the developer.
+With system permission, the App uses ARKit to detect hand position, orientation, and finger pose in real time. This lets you punch, catch, slice, and hit virtual objects in the six games. Raw tracking data is not recorded or transmitted to the developer.
 
-### Optional HealthKit data
+### Device position
 
-With your permission, the App may read heart rate during activity and save a boxing workout and estimated active energy to Apple Health. An average heart-rate value may be included in the local session summary.
+The App uses the position and orientation of Apple Vision Pro to place the play area in front of you and to detect movements such as stepping sideways, crouching, and jumping. This information is processed in real time and is not recorded or transmitted to the developer.
 
-This data is not sent to developer-operated servers and is not used for advertising or marketing.
+### Body profile you enter
 
-### Information and preferences you enter
-
-The App may store your weight, heart-rate preference, and other settings used to personalize gameplay and estimate calories. This information is stored locally on the device.
+To estimate calories, the App asks for a body profile: height, weight, age, and, optionally, sex (you can choose "Prefer not to say"). This information is stored only on the device, is used only to calculate estimates inside the App, and can be changed at any time in the App's settings.
 
 ### Gameplay and progression data
 
 The App may calculate and store the following information locally:
 
-- scores;
-- punches and registered hits;
-- missed targets;
-- combos and special results;
+- scores, hits, and missed targets;
+- combos, accuracy, and reaction times;
 - estimated calories;
-- session duration and difficulty;
-- session history;
-- achievements, coins, and progression.
+- session duration, game, and difficulty;
+- session history and progress charts;
+- challenges, stars, medals, XP, coins, and unlocked items;
+- your settings, such as language and game options.
 
 ### Subscription information
 
@@ -53,8 +52,9 @@ The App uses StoreKit to check subscription status on the device. Apple handles 
 
 ## 4. Data not collected by the developer
 
-The App does not integrate third-party advertising or analytics SDKs. It does not collect the following information for the developer:
+The App does not integrate third-party advertising or analytics SDKs and does not use HealthKit. It does not collect the following information for the developer:
 
+- health or fitness data from Apple Health;
 - location;
 - contacts;
 - photos or camera content;
@@ -68,24 +68,23 @@ Apple may independently process App Store, purchase, and device diagnostic infor
 
 ## 5. Legal basis and permissions
 
-Local processing required for the App takes place to provide the features you request. Access to hand tracking and HealthKit depends on permissions you grant through the operating system.
+Local processing takes place to provide the features you request. Access to hand tracking depends on the permission you grant through the operating system.
 
-You can deny or revoke these permissions in visionOS settings or the Health app. Related features may then become unavailable.
+You can deny or revoke this permission in visionOS settings. The games will then be unavailable.
 
 ## 6. Storage, retention, and deletion
 
-- Gameplay data, preferences, and summaries remain on the device until you delete the App or its data through available system tools.
-- Data written to Apple Health remains under your control and can be viewed or deleted in the Health app.
-- Removing PunchOrbit does not automatically delete data already written to Apple Health.
+- Your body profile, gameplay data, progress, rewards, and settings remain on the device until you delete the App or its data through available system tools.
+- You can change your body profile at any time in the App's settings.
 - Apple retains purchase and subscription information under Apple's own terms and privacy policy.
 
-Light Cup Pix Lab keeps no server-side copy of your gameplay, hand-tracking, or HealthKit data.
+Light Cup Pix Lab keeps no server-side copy of your body profile, gameplay, or tracking data.
 
 ## 7. Sharing and transfers
 
-Light Cup Pix Lab does not receive or share gameplay, hand-tracking, or HealthKit data with third parties.
+Light Cup Pix Lab does not receive or share your body profile, gameplay, or tracking data with third parties.
 
-Apple platform services, including visionOS, HealthKit, StoreKit, and the App Store, operate under Apple's terms and privacy policy. Any transfer performed by Apple relates to its services, not a developer-operated App backend.
+Apple platform services, including visionOS, ARKit, StoreKit, and the App Store, operate under Apple's terms and privacy policy. Any transfer performed by Apple relates to its services, not a developer-operated App backend.
 
 ## 8. Security
 
@@ -99,8 +98,8 @@ Depending on where you live, you may have rights of access, correction, deletion
 
 Because Light Cup Pix Lab does not maintain a remote user database, most choices are exercised directly on the device by:
 
-- revoking permissions;
-- managing data in the Health app;
+- editing your body profile in the App's settings;
+- revoking the hand-tracking permission;
 - deleting the App and its local data.
 
 For any request or question, email [lightcuppixlab.dev@gmail.com](mailto:lightcuppixlab.dev@gmail.com).
